@@ -1,19 +1,26 @@
-# Material for Short Course about Neural Network Machine Learning (course_neural_networks)
-This repo contains material to teach neural networks starting from the basics. The following topics are covered (aiming for two hour lecture each):
+# Neural Networks Crash Course (kamarain/course_neural_networks)
+This repo contains all materials for my neural networks crash course that is aimed for IT engineers who want to update their information about the cutting edge machine learning using neural networks. The course gradually develops from the fundamentals of linear regression and classification models to the state-of-the-art neural network architectures.
 
- 1. Single neuron model and the fundamentals from 1940's
- 2. Feedforward neural network from 1980's
- 3. Convolutional neural networks from 2010's
- 4. Special architectures from 2020's
+## Content
+The current version of the course consists of the following four two hour lectures:
 
-Every topic is covered during an interactive 2h session in Finnish or English and is tailored for the audience. For every topic this repo contains:
+ 1. Single neuron (1940's)
+ 2. Neural network (1980's) 
+ 3. Convolutional neural network (2010's)
+ 4. State-of-the-art neural network architectures (2020's)
 
- * Handwritten notes
- * A Jupyter notebook of code examples during the interactive sessions
+Lectures are adapted for the needs and background knowledge of audience and the course is lectured in Finnish or English.
+
+## Materials
+The main "material" is me lecturing, but to help understanding these topics I provide supporting material such as:
+
+ * Handwritten notes (in this repo one day, perhaps)
+ * A Jupyter notebook of code examples during the interactive sessions (in this repo)
  
  ## Python instructions
- 
- To run the provided code you need to install Python. The best way is to use the Anaconda and the following instructions work in Linux environment:
+To run the provided code (Jupyter notebooks) you need to install Python. The best way is to use the Anaconda package manager. Install that by downloading the installer from the Anaconda Web site: [https://www.anaconda.com/products/distribution](https://www.anaconda.com/products/distribution) .
+
+After that, create environment and install the required packages. The following examples are for Linux, but to my experience work nearly unchanged also in MacOS: 
  
  ```
  $ conda create -n nnetcourse
