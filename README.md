@@ -11,4 +11,19 @@ Every topic is covered during an interactive 2h session in Finnish or English an
  * Handwritten notes
  * A Jupyter notebook of code examples during the interactive sessions
  
+ ## Python instructions
+ 
+ To run the provided code you need to install Python. The best way is to use the Anaconda and the following instructions work in Linux environment:
+ 
+ ```
+ $ conda create -n nnetcourse
+ $ conda activate nnetcourse
+ (nnetcourse) $ conda install python=3.9
+ (nnetcourse) $ conda install jupyter
+ (nnetcourse) $ conda install matplotlib
+ (nnetcourse) $ conda install numpy
+ (nnetcourse) $ conda install scipy
+ ```
+
+## Copyright and Licensing
  &copy; 2022 by Joni-Kristian Kamarainen licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
