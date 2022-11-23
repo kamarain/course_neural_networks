@@ -14,8 +14,8 @@ Lectures are adapted for the needs and background knowledge of audience and the 
 ## Materials
 The main "material" is me lecturing, but to help understanding these topics I provide supporting material such as:
 
- * Handwritten notes (in this repo one day, perhaps)
- * A Jupyter notebook of code examples during the interactive sessions (in this repo)
+ * Handwritten notes - see the notes/ directory
+ * A Jupyter notebook of code examples - see the notebooks/ directory
  
  ## Python instructions
 To run the provided code (Jupyter notebooks) you need to install Python. The best way is to use the Anaconda package manager. Install that by downloading the installer from the Anaconda Web site: [https://www.anaconda.com/products/distribution](https://www.anaconda.com/products/distribution) .
